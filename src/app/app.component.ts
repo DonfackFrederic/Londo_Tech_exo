@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './includes/header/header.component';
 import { FooterComponent } from './includes/footer/footer.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -11,5 +12,5 @@ import { FooterComponent } from './includes/footer/footer.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'App_version_18';
+  
 }
