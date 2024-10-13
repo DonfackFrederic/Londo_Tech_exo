@@ -1,0 +1,119 @@
+/*footer_top*/
+.footer_top {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0px 50px 0px 50px;
+}
+.footer .column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px 0;
+}
+.footer .column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+
+}
+.footer .column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .column ul li {
+  margin-bottom: 5px;
+  display: flex;
+
+}
+.footer .column ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  color: #B6B6B6;
+}
+
+.footer .app-links img {
+  width: 120px;
+  margin: 5px 0;
+}
+.footer .bottom-bar {
+  background-color: #222;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.footer .bottom-bar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer .bottom-bar a:hover {
+  text-decoration: underline;
+}
+.footer .social-icons {
+  margin-top: 10px;
+  padding: 0px 20px;
+}
+.footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.site-footer {
+  background-color:#000;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.search-container input[type="text"] {
+  width: 77%;
+  padding: 10px 40px 10px 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  background-color: #292929;
+  color: #B6B6B6;
+}
+.search-container .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #888;
+  cursor: pointer;
+}
+
+/*footer_center*/
+.footer_center{
+  height: 10px;
+  width: 100%;
+  background-color: #E60028;
+}
+/*footer_bottom*/
+.footer_bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}

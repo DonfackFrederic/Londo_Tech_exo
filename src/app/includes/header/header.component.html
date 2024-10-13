@@ -1,1 +1,48 @@
-<p>header works!</p>
+<header>
+  <div class="top_bar">
+      <div class="social_icons">
+          <img src="images/facebook-letter-logo.svg" alt="" srcset="">
+          <img src="images/Group(1).svg" alt="" srcset="">
+          <img src="images/Group.svg" alt="" srcset="">
+      </div>
+      <div class="language_select">
+          <span>CAPITAL MARKETS</span>
+          <span>BSCA BANK WORLDWIDE</span>
+          <p style="width: 2px;height: 25px; background-color: white; margin: 20px;" ></p>
+          <select>
+              <option>FRENCH</option>
+          </select>
+      </div>
+  </div>
+
+  <div class="main_header">
+      <div class="logo">
+          <img src ="images/logo.jpg" alt="BSCA Bank Logo">
+      </div>
+      <a href="#" class="digital_banking_btn">DIGITAL BANKING</a>
+  </div>
+  <table class="header__bottom" >
+      <tr class="header__bottom__menu">
+          <th [routerLink]="['/coporate']" routerLinkActive="router-link-active">
+              INDIVIDUALS
+          </th>
+          <th [routerLink]="['/prenuim']" routerLinkActive="router-link-active">PREMIUM
+              BSCA BANK
+          </th>
+          <th [routerLink]="['/secondprenuim']" routerLinkActive="router-link-active">SMALL
+              AND MEDIUM ENTERPRISES</th>
+          <th [routerLink]="['/coporate']" routerLinkActive="router-link-active"  >
+            CORPORATE
+          </th>
+          <th [routerLink]="['/personal']" routerLinkActive="router-link-active">PERSONAL
+              BANKING SERVISES
+          </th>
+          <th style="width: 45%; color:#8B8B8B; border-top: 1px solid #E5E5E5; text-align: end;">
+              <div style="display: flex; justify-content: end ;margin-right: 20px;">
+                <span>Search</span>
+                <img src="images/search.jpg" alt="" srcset="">
+              </div>
+          </th>
+      </tr>
+  </table>
+</header>

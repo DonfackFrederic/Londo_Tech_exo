@@ -1,0 +1,84 @@
+
+.top_bar {
+  background-color: #E60028;
+  color: white;
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social_icons img {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 10px;
+}
+.language_select {
+  display: flex;
+  align-items: center;
+}
+.language_select > span {
+  padding: 20px;
+}
+.language_select select {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px 50px 30px 50px;
+}
+.logo img {
+  height: 50px;
+}
+.digital_banking_btn {
+  background-color: #0441A4;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav_menu {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+}
+.nav_menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.nav_menu li {
+  margin-right: 20px;
+}
+.nav_menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.search_icon {
+  margin-left: auto;
+}
+.header__bottom{
+  border-collapse: collapse;
+}
+.header__bottom__menu{
+  border: 1px solid black;
+}
+.header__bottom__menu th{
+  border: 1px solid #E5E5E5;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.header__bottom__menu th:hover{
+  color: #E60028;
+  border-top: 3px solid #E60028;
+}
+
+
+
