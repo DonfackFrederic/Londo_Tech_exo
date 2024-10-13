@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding:0px  50px;
+}
+.container_first{
+  display: flex;
+  justify-content: space-around;
+}
+.section {
+  background: linear-gradient(#0441A4 ,#4684E8 ) ;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.section h2 {
+  margin-top: 0;
+}
+.section p {
+  font-size: 14px;
+}
+button {
+
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 117px;
+}
+.section--white {
+  background-color: white;
+  border: 1px solid white;
+  color: #0441A4;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+}
+.section--primary {
+
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+}
+.section--green {
+
+  background-color: #71BC11;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+  border-style: none;
+}
+.section--blue {
+
+  background-color: #1174BC;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 160px;
+  border-style: none;
+}
+
+.strategy {
+
+  background-image: url('../../../../public/images/hunters-race-408744-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+.cash-management {
+
+  background-image: url('../../../../public/images/salutation.png');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+.credit-operations {
+  grid-column: span 1;
+}
+
+.cash-analycal {
+  background-image: url('../../../../public/images/blur-business-chart-159888.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+
+
+/*Information*/
+.information{
+  padding: 50px;
+}
+.information_top{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #B6B6B6;
+}
+.information_top_event{
+  font-size: 40px;
+}
+
+.information_top_new  span{
+ font-size: 10px;
+  color: #0441A4;
+}
+.information_bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.information_bottom_rigth_left span {
+  padding: 30px;
+}
+.information_bottom_rigth_item {
+  padding: 20px;
+  border-bottom: 1px solid #B6B6B6;
+}
+.information_bottom_rigth_item:last-child{
+  color: '#B6B6B6';
+}
+.information_bottom_rigth {
+  width: 50%;
+}
+.information_bottom_left {
+  width: 50%;
+}
+.information_bottom_left>:first-child {
+  line-height: 35px;
+  font-size: 25px;
+}
+.information_bottom_left>:last-child {
+  line-height: 50px;
+  color: #B6B6B6;
+}
+
+
+
+/*contenu de la page*/
+
+.bankImage{
+  width: 100%;
+  height: 530px;
+  background-image: url("../../../../public/images/P1CNXX.png");
+  background-position: center;
+  background-size: cover;
+}

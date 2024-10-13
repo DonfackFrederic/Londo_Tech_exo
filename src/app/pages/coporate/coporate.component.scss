@@ -1,0 +1,160 @@
+.content_title{
+  margin-top: 150px;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left-section {
+  flex: 1;
+  background-color: #0052cc;
+  color: white;
+  padding: 40px;
+}
+
+.right-section {
+  flex: 2;
+  padding: 40px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.contact-button {
+  background-color: white;
+  color: #0052cc;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.right-section .contact-button {
+  background-color: #0052cc;
+  color: white;
+}
+
+.contact-button:hover {
+  background-color: #f0f0f0;
+}
+
+.right-section .contact-button:hover {
+  background-color: #003d99;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #1a3b5d;
+  font-size: 2.5em;
+}
+
+.banner {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.banner-image {
+  background-image: url('https://v0.dev/placeholder.svg?height=400&width=1200');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(220, 20, 60, 0.8);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.overlay h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: white;
+  color: #dc143c;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.analytical-reviews {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.image-content {
+  flex: 1;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
